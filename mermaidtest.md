@@ -12,7 +12,7 @@ flowchart LR
 
     %%
     subgraph ABC [Action]
-        IS{Does a UNI Exists?} --> |YES| DEL[Delete The UNI]
+        IS{SEC Exists?} --> |YES| DEL[Delete The UNI]
         IS --> |NO| WRITE[Write the updated Doc]
         DEL --> WRITE
     end
