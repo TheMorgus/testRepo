@@ -10,6 +10,7 @@ flowchart LR
     
     1 -->  ABC
 
+    click 1 "http://www.github.com" 
     %%
     subgraph ABC [Action]
         IS{SEC Exists?} --> |YES| DEL[Delete The UNI]
