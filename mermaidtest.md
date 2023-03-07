@@ -5,7 +5,7 @@ flowchart LR
     %% Setup Section
     subgraph 1 [Setup<br/>ABCD-12456]
         direction LR
-        READA[<a href='https://google.com'>works</a>] --> GETC[Get Doc]
+        READA[<a href='/mermaidtest2.md'>works</a>] --> GETC[Get Doc]
     end
     
     1 -->  ABC
