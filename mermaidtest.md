@@ -9,8 +9,6 @@ flowchart LR
     end
     
     1 -->  ABC
-
-    click 1 callback "http://goo.gl/"
     
     %%
     subgraph ABC [Action]
