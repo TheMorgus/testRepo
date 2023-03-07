@@ -5,8 +5,7 @@ flowchart LR
     %% Setup Section
     subgraph 1 [Setup<br/>ABCD-12456]
         direction LR
-        READ --> GETC[Get Doc]
-     click READ "https://github.com" "Back To Repo"
+        READA[<a href='https://google.com'>works</a>] --> GETC[Get Doc]
     end
     
     1 -->  ABC
