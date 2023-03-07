@@ -5,7 +5,7 @@ flowchart LR
     %% Setup Section
     subgraph 1 [Setup<br/>ABCD-12456]
         direction LR
-        READ --> GETC[Get Csof]
+        READ --> GETC[Get Doc]
     end
     
     1 -->  ABC
@@ -13,7 +13,7 @@ flowchart LR
     %%
     subgraph ABC [Action]
         IS{Does a UNI Exists?} --> |YES| DEL[Delete The UNI]
-        IS --> |NO| WRITE[Write the updated csof]
+        IS --> |NO| WRITE[Write the updated Doc]
         DEL --> WRITE
     end
 
