@@ -6,6 +6,7 @@ flowchart LR
     subgraph 1 [Setup<br/>ABCD-12456]
         direction LR
         READ --> GETC[Get Doc]
+     click READ "http://www.github.com"
     end
     
     1 -->  ABC
