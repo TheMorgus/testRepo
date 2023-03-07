@@ -10,7 +10,7 @@ flowchart LR
     
     1 -->  ABC
 
-    click 1 href "http://goo.gl/" "Tooltip"
+    click 1 "http://goo.gl/" "Tooltip"
     
     %%
     subgraph ABC [Action]
